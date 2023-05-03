@@ -1,0 +1,24 @@
+.screen{
+    width: 100px;
+    height: 20px;
+    border-style: solid;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.numsRow{
+    display: flex;
+    gap: 2px;
+}
+
+.number{
+    width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+}
