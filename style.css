@@ -89,6 +89,7 @@ body{
     margin: 0;
 }
 .log{
-    padding: 2vw;
+    /*set padding units to px*/
+    padding: 12px;
     margin: 0;
 }
