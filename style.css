@@ -1,6 +1,8 @@
 *{
     font-family:sans-serif;
     font-size: 2vh;
+    border-radius: 3px;
+    overflow: hidden;
 }
 body{
     box-sizing: border-box;
@@ -20,13 +22,15 @@ body{
     align-items:stretch;
     gap: 2vh;
     padding: 3vh;
-    background-color: blueviolet;
+    background-color:darkslategrey;
     margin: 0;
 }
 .history{
     width: 20vh;
     flex: none;
-    background-color: azure;
+    background-color:palegoldenrod;
+    display: flex;
+    flex-direction: column;
 }
 
 .calculator{
@@ -39,7 +43,20 @@ body{
 .display{
     display: flex;
     flex: 1;
-    border-style: solid;
+    background-color:palegoldenrod;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+
+}
+
+.display p{
+    margin: 0;
+    padding: 2vh;
+    font-size:xx-large;
+    font-weight: 800;
+    flex-wrap: wrap;
 }
 
 .digits {
@@ -58,8 +75,20 @@ body{
 .number, .symbol{
     display: flex;
     flex:1;
-    background-color: antiquewhite;
-    border-radius: 3px;
     align-items: center;
     justify-content: center;
+}
+.number{
+    background-color: antiquewhite;
+}
+.symbol{
+    background-color:burlywood;    
+}
+.entry{
+    padding: 0;
+    margin: 0;
+}
+.log{
+    padding: 2vw;
+    margin: 0;
 }
